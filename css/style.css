@@ -1,0 +1,234 @@
+* { 
+  margin: 0;
+  padding: 0;
+}
+
+
+html { 
+  height: 100%;
+}
+
+
+
+footer, header  { 
+  display:block;
+}
+
+body { 
+  font: normal .80em arial, sans-serif;
+  background: #FFF url(../images/friends.jpg) center center fixed;
+	  -webkit-background-size: cover; 
+	  -moz-background-size: cover; 
+	  -o-background-size: cover; 
+	  background-size: cover;
+  color: #DDD;
+}
+
+p { 
+  padding: 0 0 20px 0;
+  line-height: 1.7em;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 { 
+  color: #362C20;
+  letter-spacing: 0em;
+  padding: 0 0 5px 0;
+}
+
+h1, h2, h3 { 
+  font: normal 100% arial, sans-serif;
+  margin: 0 0 15px 0;
+  padding: 15px 0 5px 0;
+  color: #FFF;
+}
+
+h2 { 
+  font-size: 160%;
+  padding: 9px 0 5px 0;
+  color: #F67F00;
+}
+
+h3 { 
+  font-size: 140%;
+  padding: 5px 0 0 0;
+}
+
+h4, h6 { 
+  color: #F67F00;
+  padding: 0 0 5px 0;
+  font: normal 150% arial, sans-serif;
+}
+
+h5, h6 { 
+  color: #888;
+  font: italic 95% arial, sans-serif;
+  letter-spacing: normal;
+  padding: 0 0 15px 0;
+}
+
+a, a:hover { 
+  outline: none;
+  text-decoration: underline;
+  color: #09D4FF;
+}
+
+a:hover { 
+  text-decoration: none;
+}
+
+
+.left { 
+  float: left;
+  width: auto;
+  margin-right: 10px;
+}
+
+.right { 
+  float: right; 
+  width: auto;
+  margin-left: 10px;
+}
+
+.center { 
+  display: block;
+  text-align: center;
+  margin: 20px auto;
+}
+
+#main, #container, #logo, #site_content, footer { 
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+#main {
+  margin: 20px auto 20px auto ;
+  width: 980px;
+  padding-bottom: 20px;
+}
+
+header { 
+  background: transparent;
+  height: 225px;
+}
+
+#logo { 
+  width: 330px;
+  float: left;
+  height: 100px;
+  color: #888;
+  padding: 20px;
+  margin: 20px 20px;
+}
+
+#logo h1 { 
+  font: normal 320% verdana, arial, sans-serif;
+  border-bottom: 0;
+  text-transform: none;
+  margin: 0;
+}
+
+#logo_text h1, #logo_text h1 a, #logo_text h1 a:hover { 
+  padding: 0;
+  color: #FFF;
+  text-decoration: none;
+}
+
+#logo_text h1 a .logo_colour, .content h1 .logo_colour, #users  { 
+  color: #09D4FF;
+}
+
+
+#logo_text a:hover .logo_colour { 
+  color: #FFF;
+}
+
+
+#site_content { 
+  width: 930px;
+  height: 600px;
+  overflow: hidden;
+  margin: auto auto 0 auto;
+  padding: 25px;
+  background: transparent url(../images/transparent.png);
+} 
+
+
+.sidebar_right { 
+  float: right;
+  width: 200px;
+  margin: 18px 0 17px 0;
+  padding: 0 15px 5px 13px;
+}
+
+.sidebar_left { 
+  float: left;
+  width: 250px;
+  margin: 15px 20px 400px 0;
+  padding: 0 15px 5px 13px;
+}
+
+#messages{
+	resize: none;
+
+}
+
+  
+.sidebar_right p, .sidebar_left p, .content h1 { 
+  padding: 0 15px 20px 0;
+  font: 200% arial, sans-serif;
+  text-shadow:  #000 1px 1px;
+  margin: 0 1px;
+  color: #FFF;
+}
+
+
+.content { 
+  text-align: left;
+  width: 630px;
+  margin: 25px 20px 15px 20px;
+  float: center;
+  font-size: 120%;
+  padding: 14px 0 0 0;
+ }
+ 
+#messeg {
+  position:relative; 
+  float:left; 
+  width:350px; 
+  height:520px; 
+  overflow-x:scroll; 
+  overflow-y:scroll; 
+  background-image: 
+  url(../images/ramka.png); 
+  background-attachment: fixed;
+}
+
+#go {
+  position:absolute; 
+  left:30px; 
+  top:11px; 
+  color:black;
+}
+  
+#copyr { 
+  background: transparent url(../images/transparent.png);
+  width: 980px;
+  font: 170% arial, sans-serif;
+  text-shadow: 1px 1px #000;
+  height: 30px;
+  padding: 5px 0 20px 0;
+  text-align: center; 
+  color: #FFF;
+  margin-top: 30px;
+}
+
+footer p { 
+  line-height: 1.7em;
+  font: 70% arial, sans-serif;
+  padding: 10px 0 10px 0;
+}
+
+
+

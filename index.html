@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="UTF-8"/>
+	<title>Чат для Своих</title>
+	<meta name="keywords" content="чат" />
+	<meta name="description" content="Чат без регистрации" />
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen, projection" />
+	<script type="text/javascript" src="js/login.js"></script>
+	<script type="text/javascript" src="/socket.io/socket.io.js"></script>
+	<script type="text/javascript" src="js/mes.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+</head>
+
+
+
+<body onLoad="show()">
+	<div id="main">
+		<header>
+			<div id="logo">
+				<div id="logo_text">
+			  		<h1><a href="index.html">Чат <span class="logo_colour">для своих</span></a></h1>
+				</div>
+		    </div>
+		</header>
+			
+			
+<div id="site_content">
+	<div class="sidebar_right">
+		<p>Cейчас в сети:</p><br />
+		<span id="users">0</span><b> пользователей</b>
+	</div>
+			
+<div class="sidebar_left">
+	<p>Введите ваше сообщение</p> 
+	<textarea id="messages" rows="12" cols="25"></textarea>
+	<input id="msg_input" type="submit" value=" Отправить "/>
+</div>
+		
+<div class="content">
+	<h1><span class="logo_colour">Здесь все свои!</span></h1>
+	<div id="messeg">
+		<div id="go"><b id=mess></b></div> 
+	</div>
+</div>
+</div>
+<footer>
+	<div id= "copyr">
+	<p>&copy; Чат для своих 2013 | Все права защищены</p>
+	</div>
+</footer>
+</div>
+<script type="text/javascript">
+	m();
+	function adduser (data) {
+   
+		document.getElementById("users").innerHTML = data;
+		
+	}
+</script>
+</body>
+</html>
