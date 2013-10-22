@@ -4,7 +4,11 @@
   "description": "Simple Project to demostrate Node.js",
   "main": "appChat.js",
   "author": "Atamankin Oleg",
-  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OldPartizan/Chat.git"
+  },
+  
   "engines": {
     "node": ">= 0.10.15.0"
   },
@@ -16,4 +20,5 @@
   "scripts": {
     "start": "appChat.js"
   }
+  "license": "MIT"
 }
