@@ -1,0 +1,19 @@
+{
+  "name": "Chatik",
+  "version": "0.0.0-1",
+  "description": "Simple Project to demostrate Node.js",
+  "main": "appChat.js",
+  "author": "Atamankin Oleg",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 0.10.15.0"
+  },
+  "dependencies": {
+    "express": "~3.0.0",
+    "socket.io": "~0.9.10"
+  },
+  "subdomain": "chatik",
+  "scripts": {
+    "start": "appChat.js"
+  }
+}
