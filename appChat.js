@@ -6,7 +6,7 @@ var text = require('fs');
 
 
 server.maxConnections = 100;
-server.listen(80);
+server.listen(8080);
 
 app.use(express.static(__dirname + '/'));
 
