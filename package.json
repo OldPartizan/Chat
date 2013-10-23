@@ -2,7 +2,7 @@
   "name": "Chatik",
   "version": "0.0.1",
   "description": "Simple Project to demostrate Node.js",
-  "main": "appChat.js",
+  "main": "server.js",
   "author": "Atamankin Oleg",
   "license": "MIT",
   "subdomain": "chatik",
@@ -18,6 +18,6 @@
     "socket.io": "~0.9.10"
   },
   "scripts": {
-    "start": "appChat.js"
+    "start": "server.js"
   }
 }
